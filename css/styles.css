@@ -135,8 +135,9 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding: 188px 0;
 }
 
 /* .hero-wrapper {
@@ -149,18 +150,20 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   margin: auto;
   display: block;
   margin-bottom: 48px;
 }
 
 .hero-btn {
-  display: flex;
+  /* display: block; */
   align-items: center;
 }
 
-.hero-button {
+.button {
+  display: block;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -169,9 +172,10 @@ img {
   background-color: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding: 16px 32px;
   margin: auto;
   min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -219,7 +223,7 @@ img {
 }
 
 .features-subtitle {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -262,8 +266,8 @@ img {
 }
 
 .member-card {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-  border-radius: 4px;
   width: 264px;
   height: 380px;
   width: calc((100% - 72px) / 4);
@@ -276,7 +280,7 @@ img {
 .name {
   width: 232px;
   height: 64px;
-  padding: 32px 16px 16px 32px;
+  padding: 32px 0;
 }
 
 .team-name {
@@ -286,7 +290,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-top: 8px;
 }
 
 .team-profession {
@@ -303,6 +307,10 @@ img {
   padding-bottom: 120px;
   padding-top: 120px;
   background-color: #ffffff;
+}
+
+.container-portfolio {
+  padding: 32px 16px;
 }
 
 .portfolio-subtitle {
@@ -327,7 +335,7 @@ img {
 }
 
 .product-card {
-  width: calc((100% -48px) / 3);
+  width: calc((100% - 48px) / 3);
   border-radius: 1px;
 }
 
@@ -337,7 +345,6 @@ img {
 .description {
   width: 360px;
   height: 120px;
-  box-sizing: border-box;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
