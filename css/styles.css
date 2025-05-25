@@ -269,7 +269,6 @@ img {
 .member-card {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-  width: 264px;
   height: 380px;
   width: calc((100% - 72px) / 4);
 }
@@ -333,7 +332,6 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  /* row-gap: 48px 24px; */
   margin: 0;
   padding: 0;
   list-style: none;
@@ -345,8 +343,6 @@ img {
 } */
 
 .description {
-  width: 360px;
-  height: 120px;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -377,7 +373,6 @@ img {
 }
 
 .footer-container {
-  padding-left: 156px;
 }
 
 .footer-logo {
